@@ -1,0 +1,9 @@
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+}
