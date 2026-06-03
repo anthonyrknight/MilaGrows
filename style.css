@@ -7,3 +7,46 @@ nav{
 img{
     width: 150px;
 }
+ul {
+  display: flex;             /* Aligns items horizontally in a row */
+  list-style-type: none;     /* Removes the default bullet points */
+  gap: 50px;                 /* Adds uniform spacing between items */
+  padding: 0;                /* Removes default browser indentation */
+  margin: 0;
+}
+.lugrasimo-regular {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    /* Set the bg image here. with "no-repeat" */
+}
+
+.search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
